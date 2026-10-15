@@ -1,0 +1,7 @@
+interface:
+  display_name: "Doc Auditor"
+  short_description: "检查技术文档语义、逻辑和沟通风险"
+  default_prompt: "Use $doc-auditor to review this technical document for semantic ambiguity, logic gaps, and communication risks."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,30 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Local credentials and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.codex/
+.agents/
+.claude/
+
+# Editors, caches, and temporary files
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+*.log
+*.bak
+*.tmp
+*~
+
+# Local inputs and generated results; keep examples synthetic
+private/
+local/
+outputs/
